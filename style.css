@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(243, 245, 255, 1);
+
+} 
+
+
+body {
+    background-color: FAFBFF;
+    font-family: 'Abril Fatface', monospace;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: FAFBFF;
+
+}
+
+
+.logoimage {
+    margin: 1.4vw;
+    margin-top: -1.4vw;
+}
+
+.nav {
+    font-family: 'Roboto Mono', monospace;
+    list-style-type: none;
+    margin-right: -20vw;
+    padding: 0;
+    display: flex;
+    margin-bottom: 6vh;
+
+}
+
+.manundertree {
+    margin-right: 6vw;
+}
+
+.DarkModeToggle {
+    margin-right: 4vw;
+    margin-bottom: 6vh;
+    margin-top: -2vh;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul li a {
+    padding: 2vw;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.formdesctitle {
+    font-family: 'Abril Fatface', monospace;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+}
+
+.description {
+    color: rgba(0, 0, 0, 0.45);
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.title {
+    font-family: 'Abril Fatface', monospace;
+    color: 2E2E2E;
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 10vw;
+}
+.nametitle {
+    color: #FF8033;
+
+}
+.my_site {
+    color: #4777FF;
+}
+
+input {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    background: white;
+    width: 50vw;
+    height: 10vh;
+    outline-color: rgba(71, 119, 255, 1);
+    border-radius: 16px;
+    padding-left: 4vh;
+    margin-top: 9vh;
+
+}
+
+
+
+
+#email {
+    margin-top: 7vh;
+
+}
+
+
+.placeholder2 {
+    font-family: 'Roboto Mono' monospace;
+    position: absolute;
+    background: white;
+    color: rgba(0, 0, 0, 0.3);
+    left: 12vw;
+    margin-top: 10vh;
+    transition: 
+    top 0.3s ease,
+    color 0.3s ease,
+   
+}
+
+.youremail input:valid + .placeholder2,
+.youremail input:focus + .placeholder2 {
+    margin-top: 2vh;
+    color: rgba(0, 0, 0, 0);
+    background: none;
+}
+
+
+.placeholder1 {
+    font-family: 'Roboto Mono' monospace;
+    position: absolute;
+    background: white;
+    color: rgba(0, 0, 0, 0.3);
+    left: 12vw;
+    margin-top: 13.7vh;
+    transform: translateY(-50%);
+    transition: 
+    top 0.3s ease,
+    color 0.3s ease,
+    
+   
+}
+
+.yourwebsite input:valid + .placeholder1,
+.yourwebsite input:focus + .placeholder1 {
+    margin-top: 6vh;
+    color: rgba(0, 0, 0, 0);
+    background: none;
+}
+
+
+
+.description {
+    margin-top: 2.6vh;
+}
+
+.formdesc {
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+}
+
+.yourwebsite {
+    margin-top: 9vh;
+}
+
+.submit {
+    border: 4px solid rgba(30, 211, 0, 1);
+    padding: 15px 71px;
+    border-radius: 16px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(30, 211, 0, 1);
+    margin-top: 7vh;
+    margin-left: 70vh;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: rgba(30, 211, 0, 1);
+    color: white;
+}
+
+.page2 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.content {
+    min-height: 171vh;
+}
+.footer {
+    width: 100%;
+    position: absolute;
+}
